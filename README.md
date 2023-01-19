@@ -1,4 +1,4 @@
-# VPC with Terraform [ IAC ] and Ansible [ Remote Server Configuration ]
+# VPC with Terraform [ IAC ] and Ansible [ Resource Configuration ]
 
 Utilizes the DO provider to provision VPC resources.
 ``` mermaid
