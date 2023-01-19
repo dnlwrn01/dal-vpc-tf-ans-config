@@ -1,2 +1,8 @@
-# dal-vpc-tf-ans-config
-Base IAC configuration built with terrafrom using ansible to configure resources [utilizing the DO provider].
+# VPC with Terraform [ IAC ] and Ansible [ Remote Server Configuration ]
+
+Utilizes the DO provider to provision VPC resources.
+``` mermaid
+        graph TD
+            LoadBalancer --> Auth --> Core
+            Core --> Service && Service && Service && Service
+```
