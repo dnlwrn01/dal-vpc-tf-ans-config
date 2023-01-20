@@ -18,6 +18,6 @@ The remaining structure is as follows:
 ## Hierarchy:
 ``` mermaid
         graph TD
-            LoadBalancer --> Auth --> Core
-            Core --> Service1 & Service2 & Service3 & Service4 & Service5 & Service..
+            Balancer --> Service1 --> Service2
+            Core --> Service3 & Service4 & Service5 & Service6 & Service7 & Service..
 ```
