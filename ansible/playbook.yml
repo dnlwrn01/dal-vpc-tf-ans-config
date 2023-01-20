@@ -1,0 +1,14 @@
+---
+- hosts: all
+  become: true
+  tasks:
+    - name: Connected Message
+      shell: echo "Running playbook tasks"
+      
+    - import_tasks: update.yml
+
+    - import_tasks: configure.yml
+
+    - import_tasks: firewall.yml
+
+    - import_tasks: deploy.yml

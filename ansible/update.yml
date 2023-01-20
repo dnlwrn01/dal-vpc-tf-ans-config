@@ -1,0 +1,12 @@
+# Update Default Server Configuration
+---
+
+# Update Package Index
+- name: Update package index
+  apt:
+    update_cache: yes
+
+# Upgrade Packages
+- name: Upgrade * packages
+  apt:
+    upgrade: dist
