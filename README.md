@@ -1,26 +1,24 @@
 ### VPC with Terraform [ IAC ], Ansible [ Resource Configuration ], and Digital Ocean [ Cloud Provider ]
+This is a virtual private cloud configuration for the Digital Ocean Cloud Platform built with Terraform.
 
----
+## Structure
 
-#### Ansible
-- main playbook file to run on the remote
-- tasks that are included in main
+This repository is organized by remote resource type with a `main.tf` and `variables.tf` in the root. These root files are to define globally accessible variables and configure the required Terraform provider. 
 
-#### Compute
-- Compute services initalization and configuration with remote exec
-- variables for compute
+The remaining structure is as follows:
+> **ansible**
+>> Main playbook and tasks to be included
+>
+> **compute**
+>> Droplet / App instances to be provisioned
+>
+> **network**
+>> VPC Management
+>
+> **storage**
+>> Block storage instances to be provisioned 
 
-#### Network
-- VPC Management
-- Load Balancer
-- variables for network
-
-#### Storage
-- Database initalization 
-
----
-
-### DAL VPC:
+## DAL VPC:
 ``` mermaid
         graph TD
             LoadBalancer --> Auth --> Core
