@@ -19,5 +19,5 @@ The remaining structure is as follows:
 ``` mermaid
         graph TD
             Balancer --> Service1 --> Service2
-            Core --> Service3 & Service4 & Service5 & Service6 & Service7 & Service..
+            Service2 --> Service3 & Service4 & Service5 & Service6 & Service7 & Service..
 ```
