@@ -15,7 +15,7 @@ The remaining structure is as follows:
 > **storage**
 >> Block storage instances to be provisioned 
 
-## DAL VPC:
+## Hierarchy:
 ``` mermaid
         graph TD
             LoadBalancer --> Auth --> Core
