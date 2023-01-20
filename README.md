@@ -1,14 +1,26 @@
-# VPC with Terraform [ IAC ] and Ansible [ Resource Configuration ]
-_utilizing the digital ocean provider to provision VPC resources_
+### VPC with Terraform [ IAC ], Ansible [ Resource Configuration ], and Digital Ocean [ Cloud Provider ]
 
-#### Resources:
- - Load Balancer
- - Authentication Service
- - Core Routing Service
- - Individual Compute Services
- - Individual Database Services
+---
 
-#### VPC Hierarchy:
+#### Ansible
+- main playbook file to run on the remote
+- tasks that are included in main
+
+#### Compute
+- Compute services initalization and configuration with remote exec
+- variables for compute
+
+#### Network
+- VPC Management
+- Load Balancer
+- variables for network
+
+#### Storage
+- Database initalization 
+
+---
+
+### DAL VPC:
 ``` mermaid
         graph TD
             LoadBalancer --> Auth --> Core
