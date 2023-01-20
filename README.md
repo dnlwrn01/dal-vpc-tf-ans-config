@@ -1,5 +1,5 @@
 # VPC with Terraform [ IAC ] and Ansible [ Resource Configuration ]
-_utilizing the digital ocean provider for provision VPC resources_
+_utilizing the digital ocean provider to provision VPC resources_
 
 #### Resources:
  - Load Balancer
