@@ -1,4 +1,4 @@
-### VPC with Terraform [ IAC ], Ansible [ Resource Configuration ], and Digital Ocean [ Cloud Provider ]
+# VPC with Terraform [ IAC ], Ansible [ Resource Configuration ], and Digital Ocean [ Cloud Provider ]
 This is a virtual private cloud configuration for the Digital Ocean Cloud Platform built with Terraform.
 
 ## Structure
